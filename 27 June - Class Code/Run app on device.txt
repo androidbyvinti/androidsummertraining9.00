@@ -1,0 +1,24 @@
+--> either by using build apk
+--> emulator --> slow
+--> real device via USB
+
+	Device --> Setting --> About--> Software info --> build number 
+	--> 7 times tap -->  Developer Options --> USB Debugging --> enable
+
+
+https://developer.android.com/studio/run/oem-usb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
