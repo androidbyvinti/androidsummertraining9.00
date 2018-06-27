@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRed"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/ceviche_one"
+        android:text="famous"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:id="@+id/famous"/>
+
+    <TextView
+        android:fontFamily="@font/ceviche_one"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:layout_below="@+id/famous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailTextView"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailEditText"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:hint="RamKumar@gmail.com"
+        android:backgroundTint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTextView"/>
+
+    <TextView
+        android:fontFamily="@font/ceviche_one"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="20dp"
+        android:id="@+id/passwordTextView"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:backgroundTint="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTextView"
+        android:id="@+id/passwordEditText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_marginTop="20dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/loginButton"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Account Yet? Create One"
+        android:layout_below="@+id/loginButton"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
