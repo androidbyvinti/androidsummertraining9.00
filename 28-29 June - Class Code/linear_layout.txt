@@ -1,0 +1,14 @@
+orientation=""
+
+
+positioning
+
+
+--> according to the width and height of the widget or layout
+
+android:layout_gravity --> layout_gravity outside the widget or layout
+
+android:gravity --> inisde the widget or layout
+
+
+layout_weight--> either corresponding width or height -->0dp
