@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.intent.FirstActivity"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/namedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@android:color/black"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/emaildEditText"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColorHint="@android:color/black"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/passworddEditText"
+        android:layout_marginTop="16dp"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="@android:color/black"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        />
+
+</LinearLayout>
