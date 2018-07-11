@@ -1,0 +1,45 @@
+--> Switch from one activity to another activity
+
+--> 1 screen 
+
+
+--> Intent -->
+ Intent is used as a message object which we can pass either on another activity or either on any other application.
+
+Uses of Intent-->
+
+--> used for passing some information from one activity to another activity inside the application.
+
+--> used for passing some information from one application to any another application.
+
+--> use intent for utilizing any predefined service. eg --> camera service, bluetooth service, etc.
+
+--> for providing broadcast messages.
+
+types of intent:
+
+--> Implicit Intent(Automatically)
+--> Explicit Intent(Forcefully)
+
+
+Implicit Intent
+here destination will be set automatically by the android os. we can only specify the src.
+
+
+Explicit Intent
+--> when i have to move from one screen to another screen inside the application then we need to pass two information
+--> src(Current Screen/Activity) to destination(Destination Activity/Screen)
+
+----------------------------------------------------------------
+
+
+1st way
+
+--> front-end --> layout --> right click --> layout resource file
+
+--> java --> top package --> right click --> new --> kotlin class
+
+--> manfiest --> new activity tag --> specify name of activity
+--> entry --> Manifest --> Runtime Exception --> ActivityNotFoundException
+
+2nd way
