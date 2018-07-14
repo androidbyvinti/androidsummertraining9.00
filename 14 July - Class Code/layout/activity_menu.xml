@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.quizapp.MenuActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:onClick="optionSelected"
+        android:id="@+id/cButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:textSize="25sp"/>
+
+    <Button
+        android:onClick="optionSelected"
+        android:id="@+id/cPlusButton"
+        android:text="C++"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="optionSelected"
+        android:id="@+id/javaButton"
+        android:text="Java"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="optionSelected"
+        android:id="@+id/kotlinButton"
+        android:text="Kotlin"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="optionSelected"
+        android:id="@+id/pythonButton"
+        android:text="Python"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

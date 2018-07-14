@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string-array name="cQuestions">
+        <item>Who Invented C Language?</item>
+        <item>Extension of Header File?</item>
+        <item>Use of printf()?</item>
+        <item>Use of scanf()?</item>
+        <item>Use of malloc?</item>
+    </string-array>
+
+    <string-array name="cOptions">
+        <item>Dennis Ritchie</item>
+        <item>James Gosling</item>
+        <item>Jet Brains</item>
+        <item>Andy Rubin</item>
+        <item>.hd</item>
+        <item>.hf</item>
+        <item>.h</item>
+        <item>.hh</item>
+        <item>for printing data</item>
+        <item>for viewing data</item>
+        <item>for validating data</item>
+        <item>none of above</item>
+        <item>for taking input</item>
+        <item>for viewing data</item>
+        <item>for validating data</item>
+        <item>none of above</item>
+        <item>memory management</item>
+        <item>memory release</item>
+        <item>memory allocation</item>
+        <item>all of above</item>
+    </string-array>
+
+    <string-array name="cAnswers">
+        <item>Dennis Ritchie</item>
+        <item>.h</item>
+        <item>for printing data</item>
+        <item>for taking input</item>
+        <item>memory allocation</item>
+    </string-array>
+
+</resources>
