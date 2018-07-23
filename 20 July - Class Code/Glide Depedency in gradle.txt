@@ -1,0 +1,3 @@
+Add Glide dependency from here:
+
+https://github.com/bumptech/glide/tree/3.0
