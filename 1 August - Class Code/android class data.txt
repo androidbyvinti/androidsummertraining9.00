@@ -1,0 +1,37 @@
+Tab --> Contacts , Calls,
+
+	Front-end  Front-end and back-end
+	  and
+	Back-end 
+
+
+
+MainActivity --> ContactsActivity --> Fragment
+
+--> Fragment can inserted as a child in an activity
+
+--> Fragment is completly dependent on Activity. If there is no activity then there will be no fragment as well.
+
+--> no registeration in manifest file for fragment.
+
+--> More code need to write for working with fragment.
+
+
+
+FrameLayout --> hierarchy --> child element is always set on top of other elements
+
+FrameLayout
+
+TexTview
+
+ImageView
+
+TextView
+
+FrameLayout
+
+
+Default position with frame layout is (0,0)
+
+--> layout_gravity
+--> gravity
